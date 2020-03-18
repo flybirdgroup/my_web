@@ -1,0 +1,30 @@
+{
+  "permalink": "/blog/welcome",
+  "source": "@site/blog/2020-3-18-textCNN.md",
+  "description": "# 菜鸟也能玩转NLP-卷积神经网络文本分类",
+  "date": "2020-03-17T16:00:00.000Z",
+  "tags": [
+    {
+      "label": "facebook",
+      "permalink": "/blog/tags/facebook"
+    },
+    {
+      "label": "hello",
+      "permalink": "/blog/tags/hello"
+    },
+    {
+      "label": "docusaurus",
+      "permalink": "/blog/tags/docusaurus"
+    }
+  ],
+  "title": "Welcome",
+  "truncated": true,
+  "prevItem": {
+    "title": "What is google cloud",
+    "permalink": "/blog/hello_world"
+  },
+  "nextItem": {
+    "title": "Hola",
+    "permalink": "/blog/hola"
+  }
+}

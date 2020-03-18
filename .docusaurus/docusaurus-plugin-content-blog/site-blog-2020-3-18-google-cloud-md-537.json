@@ -1,0 +1,34 @@
+{
+  "permalink": "/blog/hello_world",
+  "source": "@site/blog/2020-3-18-google_cloud.md",
+  "description": "Welcome to this blog. This blog is created with [**Docusaurus 2 alpha**](https://v2.docusaurus.io/).",
+  "date": "2020-03-17T16:00:00.000Z",
+  "tags": [
+    {
+      "label": "facebook",
+      "permalink": "/blog/tags/facebook"
+    },
+    {
+      "label": "hello",
+      "permalink": "/blog/tags/hello"
+    },
+    {
+      "label": "docusaurus",
+      "permalink": "/blog/tags/docusaurus"
+    },
+    {
+      "label": "google cloud",
+      "permalink": "/blog/tags/google-cloud"
+    }
+  ],
+  "title": "What is google cloud",
+  "truncated": true,
+  "prevItem": {
+    "title": "doc1",
+    "permalink": "/blog/2020/03/18/doc1"
+  },
+  "nextItem": {
+    "title": "Welcome",
+    "permalink": "/blog/welcome"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "permalink": "/blog/2020/03/18/doc1",
+  "source": "@site/blog/doc1.md",
+  "description": "haha",
+  "date": "2020-03-18T10:13:55.621Z",
+  "tags": [],
+  "title": "doc1",
+  "truncated": false,
+  "nextItem": {
+    "title": "What is google cloud",
+    "permalink": "/blog/hello_world"
+  }
+}
