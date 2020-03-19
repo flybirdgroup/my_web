@@ -24,6 +24,10 @@
   "title": "What is google cloud",
   "truncated": true,
   "prevItem": {
+    "title": "word2vec详解",
+    "permalink": "/blog/elmo"
+  },
+  "nextItem": {
     "title": "Welcome",
     "permalink": "/blog/welcome"
   }

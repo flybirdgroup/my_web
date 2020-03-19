@@ -15,21 +15,21 @@ TextAttBiRNN是在双向LSTM文本分类模型的基础上改进的，主要是�
 - [深度学习中的注意力模型](https://zhuanlan.zhihu.com/p/37601161)
 - [深度学习注意力机制](https://zhuanlan.zhihu.com/p/53036028)
 
-请注意,这里的注意力机制与bert中transformer的注意力机制不同,transformer会更加复杂,大家可以参考我关于[transformer]的文章(https://github.com/weijiang2009/URun.ResearchPrototype/tree/dev/People/Xiaoxian/NLP%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/Transformer%E7%AC%94%E8%AE%B0)
+请注意,这里的注意力机制与bert中transformer的注意力机制不同,transformer会更加复杂,大家可以参考我关于[transformer](https://github.com/weijiang2009/URun.ResearchPrototype/tree/dev/People/Xiaoxian/NLP%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/Transformer%E7%AC%94%E8%AE%B0)
 
 In the paper [Feed-Forward Networks with Attention Can Solve Some Long-Term Memory Problems](https://arxiv.org/pdf/1512.08756.pdf), the **feed forward attention** is simplified as follows,
-![png](../static/img/FeedForwardAttention.png)
+![png](../img/FeedForwardAttention.png)
 
 Function a, a learnable function, is recognized as a feed forward network. In this formulation, attention can be seen as producing a fixed-length embedding c of the input sequence by computing an adaptive weighted average of the state sequence h.
 
 c就是注意力,alpha就是权重,h就是隐含状态,alpha通过softmax计算,score就是通过h计算的,h就是当前状态输入的词语和上一隐含状态ht-1计算而来的
 
 
-![png](../static/img/FeedForwardAttetion_fomular.png)
+![png](../img/FeedForwardAttetion_fomular.png)
 
 ## 细看结构
 TextAttBiRNN 的网络结构
-![png](../static/img/text-attn-birnn.png)
+![png](../img/text-attn-birnn.png)
 
 ### 输入层
 输入层我们可以定义为句子输入长度，每个词经过一个embedding_dim=50的embedding矩阵，最终输出400×50的表示矩阵.假设一个句子有400个词语
