@@ -11,8 +11,7 @@ module.exports = {
       title: 'AI爱好者',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
-      },
+        src: 'img/logo.svg'},
       links: [
         // {
         //   to: 'docs/doc1',
