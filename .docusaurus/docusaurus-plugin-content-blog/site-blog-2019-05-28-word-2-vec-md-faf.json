@@ -1,7 +1,7 @@
 {
   "permalink": "/blog/elmo",
-  "source": "@site/blog/2019-05-28-hola.md",
-  "description": "# 读取数据",
+  "source": "@site/blog/2019-05-28-word2vec.md",
+  "description": "## 什么是Word2Vec和Embeddings？",
   "date": "2019-05-28T00:00:00.000Z",
   "tags": [
     {
@@ -17,10 +17,10 @@
       "permalink": "/blog/tags/docusaurus"
     }
   ],
-  "title": "sentiment analysis by elmo+attention",
+  "title": "word2vec详解",
   "truncated": false,
   "prevItem": {
-    "title": "What is google cloud",
-    "permalink": "/blog/hello_world"
+    "title": "Welcome",
+    "permalink": "/blog/welcome"
   }
 }

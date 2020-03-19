@@ -8,7 +8,7 @@ author_image_url: https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1615
 tags: [facebook, hello, docusaurus,google cloud]
 ---
 
-Welcome to this blog. This blog is created with [**Docusaurus 2 alpha**](https://v2.docusaurus.io/).
+Learn how to build deep learning in Google Cloud Platform [**Docusaurus 2 alpha**](https://v2.docusaurus.io/).
 
 <!--truncate-->
 

@@ -1,7 +1,7 @@
 {
   "permalink": "/blog/hello_world",
   "source": "@site/blog/2020-3-18-google_cloud.md",
-  "description": "Welcome to this blog. This blog is created with [**Docusaurus 2 alpha**](https://v2.docusaurus.io/).",
+  "description": "Learn how to build deep learning in Google Cloud Platform [**Docusaurus 2 alpha**](https://v2.docusaurus.io/).",
   "date": "2020-03-17T16:00:00.000Z",
   "tags": [
     {
@@ -24,8 +24,8 @@
   "title": "What is google cloud",
   "truncated": true,
   "prevItem": {
-    "title": "doc1",
-    "permalink": "/blog/2020/03/18/doc1"
+    "title": "word2vec详解",
+    "permalink": "/blog/elmo"
   },
   "nextItem": {
     "title": "Welcome",

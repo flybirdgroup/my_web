@@ -1,0 +1,125 @@
+module.exports = {
+  title: '人工智能部门',
+  tagline: '目标：践行算法为王,场景落地',
+  url: 'https://AIDepartment2020.github.io',
+  baseUrl: '/',
+  favicon: 'img/favicon2.ico',
+  organizationName: 'AIDepartment2020', // Usually your GitHub org/user name.
+  projectName: 'aidepartment2020', // Usually your repo name.
+  themeConfig: {
+    navbar: {
+      title: '人工智能部门',
+      logo: {
+        alt: 'AI Department Homepage Logo',
+        src: 'img/logo3.ML.svg',
+      },
+      links: [
+        {to: 'docs/News', label: 'News', position: 'left'},
+        {to: 'docs/TGIF', label: 'TGIF', position: 'left'},
+        {to: 'docs/API', label: 'API', position: 'left'},
+        {to: 'docs/Competition', label: '数据竞赛', position: 'left'},
+        {to: 'docs/Conf', label: '会议追踪', position: 'left'},
+        {to: 'docs/CompanyProducts', label: '产品', position: 'right'},
+        //{to: 'docs/CompanySolutions', label: '解决方案', position: 'right'},
+        {to: 'docs/CoreTech', label: '核心技术', position: 'right'},
+        {to: 'blog', label: '博客', position: 'right'},
+        {to: 'docs/CompanyProfile', label: '公司简介', position: 'right'},
+        {to: 'docs/Team', label: '团队', position: 'right'},
+        {to: 'docs/Career', label: '加入我们', position: 'right'},
+        {
+          href: 'https://github.com/AIDepartment',
+          label: 'Github',
+          position: 'right',
+        },
+      ],
+    },
+    footer: {
+      style: 'dark',
+      links: [
+        {
+          title: '文档',
+          items: [
+            //{
+              //label: '公司简介',
+              //to: 'docs/CompanyProfile',
+            //},
+            {
+              label: '部门指南',
+              to: 'docs/LabHandbook',
+            },
+            {
+              label: '如何做一个好演讲',
+              to: 'docs/HowToMakeAGoodPresentation',
+            },
+            {
+              label: '13条生活和工作建议',
+              to: 'docs/AdviceForLifeAndWork',
+            },
+            //{
+              //label: 'Style Guide',
+              //to: 'docs/doc1',
+            //},
+            //{
+              //label: 'Second Doc',
+              //to: 'docs/doc2',
+            //},
+          ],
+        },
+        {
+          title: '社区',
+          items: [
+            {
+              label:'数据科学对外QQ交流群: 943335747',
+              href: '',
+            },
+            {
+              label:'王凤娇 AI场景设计与实现',
+              href: 'https://yonahwang.github.io',
+            },
+            {
+              label:'陈昌澍 AI算法设计与实现',
+              href: '',
+            },
+            {
+              label:'李科健 AI算法设计与实现',
+              href: '',
+            },
+          ],
+        },
+        {
+          title: '商务联系',
+          items: [
+            {
+              label: '电话：020-83772293',
+              to: '',
+            },
+            {
+              label: '电子邮件：ai.department.2020@gmail.com',
+              to: '',
+            },
+            {
+              label: '地址：广州市越秀区文德北路68号东方文德广场',
+              to: '',
+            },
+          ],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} AI Department, Inc. Built with Heart & Love.`,
+    },
+  },
+  presets: [
+    [
+      '@docusaurus/preset-classic',
+      {
+        docs: {
+          sidebarPath: require.resolve('./sidebars.js'),
+          editUrl:
+            'https://github.com/facebook/docusaurus/edit/master/website/',
+        },
+        theme: {
+          customCss: require.resolve('./src/css/custom.css'),
+        },
+      },
+    ],
+  ],
+};

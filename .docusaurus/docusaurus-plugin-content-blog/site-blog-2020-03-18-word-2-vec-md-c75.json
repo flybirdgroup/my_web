@@ -1,8 +1,8 @@
 {
-  "permalink": "/blog/welcome",
-  "source": "@site/blog/2020-3-18-textCNN.md",
-  "description": "# 菜鸟也能玩转NLP-卷积神经网络文本分类",
-  "date": "2020-03-17T16:00:00.000Z",
+  "permalink": "/blog/elmo",
+  "source": "@site/blog/2020-03-18-word2vec.md",
+  "description": "## 什么是Word2Vec和Embeddings？",
+  "date": "2020-03-18T00:00:00.000Z",
   "tags": [
     {
       "label": "facebook",
@@ -17,9 +17,13 @@
       "permalink": "/blog/tags/docusaurus"
     }
   ],
-  "title": "Welcome",
+  "title": "word2vec详解",
   "truncated": true,
   "prevItem": {
+    "title": "双向注意力LSTM神经网络",
+    "permalink": "/blog/Attention"
+  },
+  "nextItem": {
     "title": "What is google cloud",
     "permalink": "/blog/hello_world"
   }

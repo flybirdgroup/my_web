@@ -17,20 +17,20 @@ export default [
   
 },
 {
-  path: '/blog/2020/03/18/doc1',
-  component: ComponentCreator('/blog/2020/03/18/doc1'),
+  path: '/blog/Attention',
+  component: ComponentCreator('/blog/Attention'),
+  exact: true,
+  
+},
+{
+  path: '/blog/elmo',
+  component: ComponentCreator('/blog/elmo'),
   exact: true,
   
 },
 {
   path: '/blog/hello_world',
   component: ComponentCreator('/blog/hello_world'),
-  exact: true,
-  
-},
-{
-  path: '/blog/hola',
-  component: ComponentCreator('/blog/hola'),
   exact: true,
   
 },
@@ -61,12 +61,6 @@ export default [
 {
   path: '/blog/tags/hello',
   component: ComponentCreator('/blog/tags/hello'),
-  exact: true,
-  
-},
-{
-  path: '/blog/tags/hola',
-  component: ComponentCreator('/blog/tags/hola'),
   exact: true,
   
 },
