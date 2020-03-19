@@ -119,8 +119,16 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-doc-3616-40c"
   },
+  "/docs/doc4": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-doc-44-b-9-e23"
+  },
   "/docs/mdx": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-mdxce-3-7d1"
+  },
+  "/docs/projects": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-hello-world-461-b76"
   }
 }

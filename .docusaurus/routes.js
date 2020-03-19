@@ -94,8 +94,20 @@ export default [
   
 },
 {
+  path: '/docs/doc4',
+  component: ComponentCreator('/docs/doc4'),
+  exact: true,
+  
+},
+{
   path: '/docs/mdx',
   component: ComponentCreator('/docs/mdx'),
+  exact: true,
+  
+},
+{
+  path: '/docs/projects',
+  component: ComponentCreator('/docs/projects'),
   exact: true,
   
 }],

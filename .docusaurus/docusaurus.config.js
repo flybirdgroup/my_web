@@ -11,8 +11,20 @@ export default {
       },
       "links": [
         {
+          "to": "docs/doc4",
+          "activeBasePath": "docs",
+          "label": "Docs",
+          "position": "left"
+        },
+        {
           "to": "blog",
           "label": "Blog",
+          "position": "right"
+        },
+        {
+          "to": "docs/projects",
+          "activeBasePath": "docs",
+          "label": "Fun Easy Projects",
           "position": "right"
         },
         {

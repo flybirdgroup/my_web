@@ -13,13 +13,17 @@ module.exports = {
         alt: 'My Site Logo',
         src: 'img/logo.svg'},
       links: [
-        // {
-        //   to: 'docs/doc1',
-        //   activeBasePath: 'docs',
-        //   label: 'Docs',
-        //   position: 'left',
-        // },
+        {
+          to: 'docs/doc4',
+          activeBasePath: 'docs',
+          label: 'Docs',
+          position: 'left'},
         {to: 'blog', label: 'Blog',position: 'right'},
+        {
+          to: 'docs/projects',
+          activeBasePath: 'docs',
+          label: 'Fun Easy Projects',
+          position: 'right'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
