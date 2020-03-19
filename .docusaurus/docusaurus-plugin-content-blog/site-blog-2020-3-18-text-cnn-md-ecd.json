@@ -20,6 +20,10 @@
   "title": "Welcome",
   "truncated": true,
   "prevItem": {
+    "title": "word2vec详解",
+    "permalink": "/blog/elmo"
+  },
+  "nextItem": {
     "title": "What is google cloud",
     "permalink": "/blog/hello_world"
   }
