@@ -13,17 +13,9 @@ module.exports = {
         alt: 'My Site Logo',
         src: 'img/logo.svg'},
       links: [
-        {
-          to: 'docs/doc4',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left'},
+        {to: 'docs/createlinux',activeBasePath: 'docs',label: '谷歌云',position: 'right'},
         {to: 'blog', label: 'Blog',position: 'right'},
-        {
-          to: 'docs/projects',
-          activeBasePath: 'docs',
-          label: 'Fun Easy Projects',
-          position: 'right'},
+        {to: 'docs/projects',activeBasePath: 'docs',label: 'Fun Easy Projects',position: 'right'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',

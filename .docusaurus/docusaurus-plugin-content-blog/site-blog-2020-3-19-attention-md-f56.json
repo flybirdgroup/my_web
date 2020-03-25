@@ -19,6 +19,10 @@
   ],
   "title": "双向注意力LSTM神经网络",
   "truncated": true,
+  "prevItem": {
+    "title": "Create Virtual Linux by Google 创建linux虚拟机",
+    "permalink": "/blog/createlinux"
+  },
   "nextItem": {
     "title": "word2vec详解",
     "permalink": "/blog/elmo"

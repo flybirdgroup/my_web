@@ -23,6 +23,12 @@ export default [
   
 },
 {
+  path: '/blog/createlinux',
+  component: ComponentCreator('/blog/createlinux'),
+  exact: true,
+  
+},
+{
   path: '/blog/elmo',
   component: ComponentCreator('/blog/elmo'),
   exact: true,
@@ -65,6 +71,12 @@ export default [
   
 },
 {
+  path: '/blog/tags/linux',
+  component: ComponentCreator('/blog/tags/linux'),
+  exact: true,
+  
+},
+{
   path: '/blog/welcome',
   component: ComponentCreator('/blog/welcome'),
   exact: true,
@@ -75,6 +87,36 @@ export default [
   component: ComponentCreator('/docs/:route'),
   
   routes: [
+{
+  path: '/docs/GoogleAppEngine',
+  component: ComponentCreator('/docs/GoogleAppEngine'),
+  exact: true,
+  
+},
+{
+  path: '/docs/GoogleCloudStorage',
+  component: ComponentCreator('/docs/GoogleCloudStorage'),
+  exact: true,
+  
+},
+{
+  path: '/docs/TensorFlow',
+  component: ComponentCreator('/docs/TensorFlow'),
+  exact: true,
+  
+},
+{
+  path: '/docs/VisionAPI',
+  component: ComponentCreator('/docs/VisionAPI'),
+  exact: true,
+  
+},
+{
+  path: '/docs/createlinux',
+  component: ComponentCreator('/docs/createlinux'),
+  exact: true,
+  
+},
 {
   path: '/docs/doc1',
   component: ComponentCreator('/docs/doc1'),
@@ -96,6 +138,12 @@ export default [
 {
   path: '/docs/doc4',
   component: ComponentCreator('/docs/doc4'),
+  exact: true,
+  
+},
+{
+  path: '/docs/docker',
+  component: ComponentCreator('/docs/docker'),
   exact: true,
   
 },

@@ -11,10 +11,10 @@ export default {
       },
       "links": [
         {
-          "to": "docs/doc4",
+          "to": "docs/createlinux",
           "activeBasePath": "docs",
-          "label": "Docs",
-          "position": "left"
+          "label": "谷歌云",
+          "position": "right"
         },
         {
           "to": "blog",

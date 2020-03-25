@@ -3,28 +3,35 @@
     "allTagsPath": "/blog/tags",
     "slug": "facebook",
     "name": "facebook",
-    "count": 4,
+    "count": 5,
     "permalink": "/blog/tags/facebook"
   },
   "hello": {
     "allTagsPath": "/blog/tags",
     "slug": "hello",
     "name": "hello",
-    "count": 4,
+    "count": 5,
     "permalink": "/blog/tags/hello"
   },
   "docusaurus": {
     "allTagsPath": "/blog/tags",
     "slug": "docusaurus",
     "name": "docusaurus",
-    "count": 4,
+    "count": 5,
     "permalink": "/blog/tags/docusaurus"
   },
   "google-cloud": {
     "allTagsPath": "/blog/tags",
     "slug": "google-cloud",
     "name": "google cloud",
-    "count": 1,
+    "count": 2,
     "permalink": "/blog/tags/google-cloud"
+  },
+  "linux": {
+    "allTagsPath": "/blog/tags",
+    "slug": "linux",
+    "name": "linux",
+    "count": 1,
+    "permalink": "/blog/tags/linux"
   }
 }
