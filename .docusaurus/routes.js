@@ -29,6 +29,18 @@ export default [
   
 },
 {
+  path: '/blog/dockerhub',
+  component: ComponentCreator('/blog/dockerhub'),
+  exact: true,
+  
+},
+{
+  path: '/blog/dockerhub_2',
+  component: ComponentCreator('/blog/dockerhub_2'),
+  exact: true,
+  
+},
+{
   path: '/blog/elmo',
   component: ComponentCreator('/blog/elmo'),
   exact: true,
@@ -43,6 +55,12 @@ export default [
 {
   path: '/blog/tags',
   component: ComponentCreator('/blog/tags'),
+  exact: true,
+  
+},
+{
+  path: '/blog/tags/docker',
+  component: ComponentCreator('/blog/tags/docker'),
   exact: true,
   
 },
