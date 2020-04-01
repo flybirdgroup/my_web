@@ -1,38 +1,45 @@
 {
-  "facebook": {
+  "python": {
     "allTagsPath": "/blog/tags",
-    "slug": "facebook",
-    "name": "facebook",
-    "count": 7,
-    "permalink": "/blog/tags/facebook"
+    "slug": "python",
+    "name": "python",
+    "count": 3,
+    "permalink": "/blog/tags/python"
   },
   "hello": {
     "allTagsPath": "/blog/tags",
     "slug": "hello",
     "name": "hello",
-    "count": 7,
+    "count": 11,
     "permalink": "/blog/tags/hello"
   },
   "docusaurus": {
     "allTagsPath": "/blog/tags",
     "slug": "docusaurus",
     "name": "docusaurus",
-    "count": 7,
+    "count": 11,
     "permalink": "/blog/tags/docusaurus"
   },
   "google-cloud": {
     "allTagsPath": "/blog/tags",
     "slug": "google-cloud",
     "name": "google cloud",
-    "count": 4,
+    "count": 8,
     "permalink": "/blog/tags/google-cloud"
   },
   "docker": {
     "allTagsPath": "/blog/tags",
     "slug": "docker",
     "name": "docker",
-    "count": 2,
+    "count": 6,
     "permalink": "/blog/tags/docker"
+  },
+  "facebook": {
+    "allTagsPath": "/blog/tags",
+    "slug": "facebook",
+    "name": "facebook",
+    "count": 8,
+    "permalink": "/blog/tags/facebook"
   },
   "linux": {
     "allTagsPath": "/blog/tags",

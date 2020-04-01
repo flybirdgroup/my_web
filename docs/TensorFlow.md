@@ -13,7 +13,7 @@ tags: [facebook, hello, docusaurus,tensorflow,google cloud, linux]
 
 平均所需时间：30 分钟
 
-link to [谷歌云快速入门(三) 部署 Docker 容器映像](docker)
+link to [谷歌云快速入门(三) 使用GKE(Google Kubernetes Engine)部署容器化应用](Kubernetes)
 link to [谷歌云快速入门(五) 对图片进行标签检测模型](VisionAPI)
 
 

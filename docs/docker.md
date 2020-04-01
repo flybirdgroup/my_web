@@ -1,6 +1,6 @@
 ---
 id: docker
-title: 部署Docker容器映像+mac os Cloud SDK -谷歌云快速入门(三)
+title: Container Registry 快速入门快速入门
 
 author: 招晓贤
 author_title: AI engine @ Facebook
@@ -14,43 +14,107 @@ tags: [facebook, hello, docusaurus,google cloud, linux]
 #### 平均所需时间：30 分钟
 
 link to [谷歌云快速入门(二) 存储文件然后共享](GoogleCloudStorage)
+
 link to [谷歌云快速入门(四) 训练TensorFlow模型](TensorFlow)
 
-## step 1 选择 shell
-为完成本快速入门，您可以使用 Cloud Shell 或本地 shell。
+link to [Container Registry 快速入门快速入门](docker)
 
-Cloud Shell 是一种 shell 环境，用于管理托管在 Google Cloud 上的资源。Cloud Shell 预安装有 gcloud 命令行工具和 kubectl 命令行工具。gcloud 工具为 Google Cloud 提供了主要的命令行界面，kubectl 则为 Kubernetes 集群运行命令提供了主要命令行界面。
+link to [docker知识1](dockerhub)
 
-使用本地 shell，则必须在您的环境中安装 gcloud 工具和 kubectl 工具。
+link to [docker知识2](dockerhub_2)
 
-```python
-gcloud components install kubectl
+link to [谷歌云快速入门(三) 使用GKE(Google Kubernetes Engine)部署容器化应用](Kubernetes)
+
+这里主要简述三个知识点:
+
+构建 Docker 映像
+
+将映像推送到项目的 Container Registry
+
+从项目的 Container Registry 中拉取映像
+
+## step1  构建Docker映像
+1 首先创建一个目录
+2 在此目录创建Dockfile,requirements.txt 和 app.py三个文件
+
+Dockerfile
+```dockerfile
+# The file Dockerfile defines the image's environment
+# Import Python runtime and set up working directory
+FROM python:3.5-slim
+WORKDIR /app
+ADD . /app
+
+# Install any necessary dependencies
+RUN pip install -r requirements.txt
+
+# Open port 80 for serving the webpage
+EXPOSE 80
+
+# Run app.py when the container launches
+CMD ["python", "app.py"]
+
 ```
-登录谷歌云账号
-因为墙的原因,我们要设置Cloud SDK 以与代理/防火墙搭配使用
-```python
-gcloud config set proxy/type socks5
-gcloud config set proxy/address 127.0.0.1
-gcloud config set proxy/port 1086(your proxy port)
+requirements.txt (这里使用pip freeze >requirements.txt 把工具包写入文件)
 ```
-```python
-gcloud auth login
+Flask
 ```
 
-## step2 设置默认项目
-如需设置默认项目，请在 Cloud Shell 中运行以下命令：
-将 project-id 替换为您的项目 ID。或者创建一个
-```python
-gcloud config set project project-id
+app.py
 ```
-设置默认计算地区
-```python
-gcloud config set compute/zone compute-zone
-```
-其中，compute-zone 是所需的地理计算地区，例如 us-west1-a。
+# The Docker image contains the following code in app.py
+from flask import Flask
+import os
+import socket
 
-## 创建 GKE 集群
-```python
-gcloud container clusters create cluster-haha
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+    html = "<h3>Hello, World!</h3>"
+    return html
+
+if __name__ == "__main__":
+  app.run(host='0.0.0.0', port=80)
+
 ```
+
+如需构建 Docker 映像，请从包含映像文件的目录运行以下 Docker 命令：
+```python
+docker build -t 名字 .
+```
+这样就创建了一个本地的Docker镜像了
+如果想把它上传到Dockerhub, 请看link to [push镜像到自己的dockerhub](dockerhub)
+
+## step2 将映像添加到 Container Registry
+将 docker 配置为使用 gcloud 命令行工具作为凭据帮助程序
+如需推送或拉取映像，您必须将 Docker 配置为使用 gcloud 命令行工具对向 Container Registry 发出的请求进行身份验证。为此，请运行以下命令（您只需要执行此操作一次）
+```python
+gcloud auth configure-docker
+```
+## step3 映像推送到Container Registry了
+### 因为国内墙的原因,我们可以使用Google Gloud Shell来操作push的动作
+#### 步骤1 
+登录Google Gloud Shell
+    ![png](../img/kubernetes/4.png)
+#### 步骤2
+拉取在Dockerhub的镜像
+    ![png](../img/kubernetes/5.png)
+#### 步骤3    
+```python
+docker tag quickstart-image gcr.io/[PROJECT-ID]/quickstart-image:tag1
+```
+[PROJECT-ID] 是您的 Google Cloud Console 项目 ID，您需要将此 ID 添加到命令中。如果您的项目 ID 包含英文冒号 (:)，请参阅网域级项目。
+gcr.io 是主机名
+quickstart-image 是 Docker 映像的名称
+tag1 是要添加到 Docker 映像的标记。如果您没有指定标记，Docker 将应用默认标记 latest。
+
+![png](../img/kubernetes/6.png)
+
+## 清理
+运行以下命令，以将 Docker 映像从 Container Registry 中删除
+```python
+gcloud container images delete gcr.io/[PROJECT-ID]/quickstart-image:tag1 --force-delete-tags
+```
+
 

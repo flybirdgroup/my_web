@@ -17,6 +17,12 @@ export default [
   
 },
 {
+  path: '/blog/App',
+  component: ComponentCreator('/blog/App'),
+  exact: true,
+  
+},
+{
   path: '/blog/Attention',
   component: ComponentCreator('/blog/Attention'),
   exact: true,
@@ -49,6 +55,30 @@ export default [
 {
   path: '/blog/hello_world',
   component: ComponentCreator('/blog/hello_world'),
+  exact: true,
+  
+},
+{
+  path: '/blog/mysql',
+  component: ComponentCreator('/blog/mysql'),
+  exact: true,
+  
+},
+{
+  path: '/blog/page/2',
+  component: ComponentCreator('/blog/page/2'),
+  exact: true,
+  
+},
+{
+  path: '/blog/python',
+  component: ComponentCreator('/blog/python'),
+  exact: true,
+  
+},
+{
+  path: '/blog/ssh_gcs',
+  component: ComponentCreator('/blog/ssh_gcs'),
   exact: true,
   
 },
@@ -95,6 +125,12 @@ export default [
   
 },
 {
+  path: '/blog/tags/python',
+  component: ComponentCreator('/blog/tags/python'),
+  exact: true,
+  
+},
+{
   path: '/blog/welcome',
   component: ComponentCreator('/blog/welcome'),
   exact: true,
@@ -106,6 +142,24 @@ export default [
   
   routes: [
 {
+  path: '/docs/BIGQUERY',
+  component: ComponentCreator('/docs/BIGQUERY'),
+  exact: true,
+  
+},
+{
+  path: '/docs/BIGQUERY2',
+  component: ComponentCreator('/docs/BIGQUERY2'),
+  exact: true,
+  
+},
+{
+  path: '/docs/BIGQUERY3',
+  component: ComponentCreator('/docs/BIGQUERY3'),
+  exact: true,
+  
+},
+{
   path: '/docs/GoogleAppEngine',
   component: ComponentCreator('/docs/GoogleAppEngine'),
   exact: true,
@@ -114,6 +168,12 @@ export default [
 {
   path: '/docs/GoogleCloudStorage',
   component: ComponentCreator('/docs/GoogleCloudStorage'),
+  exact: true,
+  
+},
+{
+  path: '/docs/Kubernetes',
+  component: ComponentCreator('/docs/Kubernetes'),
   exact: true,
   
 },
@@ -154,14 +214,20 @@ export default [
   
 },
 {
-  path: '/docs/doc4',
-  component: ComponentCreator('/docs/doc4'),
+  path: '/docs/docker',
+  component: ComponentCreator('/docs/docker'),
   exact: true,
   
 },
 {
-  path: '/docs/docker',
-  component: ComponentCreator('/docs/docker'),
+  path: '/docs/dockerhub',
+  component: ComponentCreator('/docs/dockerhub'),
+  exact: true,
+  
+},
+{
+  path: '/docs/dockerhub_2',
+  component: ComponentCreator('/docs/dockerhub_2'),
   exact: true,
   
 },

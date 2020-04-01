@@ -1,4 +1,4 @@
-module.exports = {
+const siteConfig  = {
   title: 'AI爱好者',
   tagline: '让更多人都玩人工智能',
   url: 'https://your-docusaurus-test-site.com',
@@ -14,7 +14,10 @@ module.exports = {
         src: 'img/logo.svg'},
       links: [
         {to: 'docs/createlinux',activeBasePath: 'docs',label: '谷歌云',position: 'right'},
+        { search: true },
+        {to: 'docs/BIGQUERY',activeBasePath: 'docs',label: 'BIQ QUERY',position: 'right'},
         {to: 'blog', label: 'Blog',position: 'right'},
+        { languages: true },
         {to: 'docs/projects',activeBasePath: 'docs',label: 'Fun Easy Projects',position: 'right'},
         {
           href: 'https://github.com/facebook/docusaurus',
@@ -22,6 +25,15 @@ module.exports = {
           position: 'right',
         },
       ],
+      translationRecruitingLink: 'https://crowdin.com/project/docusaurus',
+      algolia: {
+        apiKey: '0f9f28b9ab9efae89810921a351753b5',
+        indexName: 'github',
+      },
+      gaTrackingId: 'UA-12345678-9',
+      highlight: {
+        theme: 'default',
+  },
     },
     footer: {
       style: 'dark',
@@ -89,3 +101,5 @@ module.exports = {
     ],
   ],
 };
+
+module.exports = siteConfig;
