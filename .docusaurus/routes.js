@@ -29,6 +29,12 @@ export default [
   
 },
 {
+  path: '/blog/BigQueryStorageAPI',
+  component: ComponentCreator('/blog/BigQueryStorageAPI'),
+  exact: true,
+  
+},
+{
   path: '/blog/createlinux',
   component: ComponentCreator('/blog/createlinux'),
   exact: true,
@@ -47,8 +53,26 @@ export default [
   
 },
 {
+  path: '/blog/douban',
+  component: ComponentCreator('/blog/douban'),
+  exact: true,
+  
+},
+{
   path: '/blog/elmo',
   component: ComponentCreator('/blog/elmo'),
+  exact: true,
+  
+},
+{
+  path: '/blog/faker',
+  component: ComponentCreator('/blog/faker'),
+  exact: true,
+  
+},
+{
+  path: '/blog/git_big_file',
+  component: ComponentCreator('/blog/git_big_file'),
   exact: true,
   
 },
@@ -89,6 +113,18 @@ export default [
   
 },
 {
+  path: '/blog/tags/classifier',
+  component: ComponentCreator('/blog/tags/classifier'),
+  exact: true,
+  
+},
+{
+  path: '/blog/tags/cnn',
+  component: ComponentCreator('/blog/tags/cnn'),
+  exact: true,
+  
+},
+{
   path: '/blog/tags/docker',
   component: ComponentCreator('/blog/tags/docker'),
   exact: true,
@@ -107,6 +143,24 @@ export default [
   
 },
 {
+  path: '/blog/tags/faker',
+  component: ComponentCreator('/blog/tags/faker'),
+  exact: true,
+  
+},
+{
+  path: '/blog/tags/git',
+  component: ComponentCreator('/blog/tags/git'),
+  exact: true,
+  
+},
+{
+  path: '/blog/tags/github',
+  component: ComponentCreator('/blog/tags/github'),
+  exact: true,
+  
+},
+{
   path: '/blog/tags/google-cloud',
   component: ComponentCreator('/blog/tags/google-cloud'),
   exact: true,
@@ -119,6 +173,12 @@ export default [
   
 },
 {
+  path: '/blog/tags/lfs',
+  component: ComponentCreator('/blog/tags/lfs'),
+  exact: true,
+  
+},
+{
   path: '/blog/tags/linux',
   component: ComponentCreator('/blog/tags/linux'),
   exact: true,
@@ -127,6 +187,24 @@ export default [
 {
   path: '/blog/tags/python',
   component: ComponentCreator('/blog/tags/python'),
+  exact: true,
+  
+},
+{
+  path: '/blog/tags/random-seed',
+  component: ComponentCreator('/blog/tags/random-seed'),
+  exact: true,
+  
+},
+{
+  path: '/blog/tags/text-cnn',
+  component: ComponentCreator('/blog/tags/text-cnn'),
+  exact: true,
+  
+},
+{
+  path: '/blog/tags/汇丰',
+  component: ComponentCreator('/blog/tags/汇丰'),
   exact: true,
   
 },

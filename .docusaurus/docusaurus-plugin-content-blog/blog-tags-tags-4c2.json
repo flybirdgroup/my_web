@@ -1,44 +1,86 @@
 {
+  "faker": {
+    "allTagsPath": "/blog/tags",
+    "slug": "faker",
+    "name": "faker",
+    "count": 1,
+    "permalink": "/blog/tags/faker"
+  },
+  "汇丰": {
+    "allTagsPath": "/blog/tags",
+    "slug": "汇丰",
+    "name": "汇丰",
+    "count": 1,
+    "permalink": "/blog/tags/汇丰"
+  },
+  "random-seed": {
+    "allTagsPath": "/blog/tags",
+    "slug": "random-seed",
+    "name": "random seed",
+    "count": 1,
+    "permalink": "/blog/tags/random-seed"
+  },
+  "git": {
+    "allTagsPath": "/blog/tags",
+    "slug": "git",
+    "name": "git",
+    "count": 1,
+    "permalink": "/blog/tags/git"
+  },
+  "lfs": {
+    "allTagsPath": "/blog/tags",
+    "slug": "lfs",
+    "name": "lfs",
+    "count": 1,
+    "permalink": "/blog/tags/lfs"
+  },
+  "github": {
+    "allTagsPath": "/blog/tags",
+    "slug": "github",
+    "name": "github",
+    "count": 1,
+    "permalink": "/blog/tags/github"
+  },
   "python": {
     "allTagsPath": "/blog/tags",
     "slug": "python",
     "name": "python",
-    "count": 3,
+    "count": 5,
     "permalink": "/blog/tags/python"
   },
   "hello": {
     "allTagsPath": "/blog/tags",
     "slug": "hello",
     "name": "hello",
-    "count": 11,
+    "count": 12,
     "permalink": "/blog/tags/hello"
   },
   "docusaurus": {
     "allTagsPath": "/blog/tags",
     "slug": "docusaurus",
     "name": "docusaurus",
-    "count": 11,
+    "count": 12,
     "permalink": "/blog/tags/docusaurus"
   },
   "google-cloud": {
     "allTagsPath": "/blog/tags",
     "slug": "google-cloud",
     "name": "google cloud",
-    "count": 8,
+    "count": 10,
     "permalink": "/blog/tags/google-cloud"
   },
   "docker": {
     "allTagsPath": "/blog/tags",
     "slug": "docker",
     "name": "docker",
-    "count": 6,
+    "count": 8,
     "permalink": "/blog/tags/docker"
   },
   "facebook": {
     "allTagsPath": "/blog/tags",
     "slug": "facebook",
     "name": "facebook",
-    "count": 8,
+    "count": 7,
     "permalink": "/blog/tags/facebook"
   },
   "linux": {
@@ -47,5 +89,26 @@
     "name": "linux",
     "count": 1,
     "permalink": "/blog/tags/linux"
+  },
+  "cnn": {
+    "allTagsPath": "/blog/tags",
+    "slug": "cnn",
+    "name": "cnn",
+    "count": 1,
+    "permalink": "/blog/tags/cnn"
+  },
+  "classifier": {
+    "allTagsPath": "/blog/tags",
+    "slug": "classifier",
+    "name": "classifier",
+    "count": 1,
+    "permalink": "/blog/tags/classifier"
+  },
+  "text-cnn": {
+    "allTagsPath": "/blog/tags",
+    "slug": "text-cnn",
+    "name": "textcnn",
+    "count": 1,
+    "permalink": "/blog/tags/text-cnn"
   }
 }

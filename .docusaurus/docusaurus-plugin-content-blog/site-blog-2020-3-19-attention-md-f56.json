@@ -5,16 +5,16 @@
   "date": "2020-03-18T16:00:00.000Z",
   "tags": [
     {
-      "label": "facebook",
-      "permalink": "/blog/tags/facebook"
+      "label": "CNN",
+      "permalink": "/blog/tags/cnn"
     },
     {
-      "label": "hello",
-      "permalink": "/blog/tags/hello"
+      "label": "classifier",
+      "permalink": "/blog/tags/classifier"
     },
     {
-      "label": "docusaurus",
-      "permalink": "/blog/tags/docusaurus"
+      "label": "textCNN",
+      "permalink": "/blog/tags/text-cnn"
     }
   ],
   "title": "双向注意力LSTM神经网络",
