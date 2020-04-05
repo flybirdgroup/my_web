@@ -185,6 +185,12 @@ export default [
   
 },
 {
+  path: '/blog/tags/model',
+  component: ComponentCreator('/blog/tags/model'),
+  exact: true,
+  
+},
+{
   path: '/blog/tags/python',
   component: ComponentCreator('/blog/tags/python'),
   exact: true,
@@ -215,6 +221,12 @@ export default [
   
 },
 {
+  path: '/blog/tags/tf-serving',
+  component: ComponentCreator('/blog/tags/tf-serving'),
+  exact: true,
+  
+},
+{
   path: '/blog/tags/web',
   component: ComponentCreator('/blog/tags/web'),
   exact: true,
@@ -223,6 +235,12 @@ export default [
 {
   path: '/blog/tags/汇丰',
   component: ComponentCreator('/blog/tags/汇丰'),
+  exact: true,
+  
+},
+{
+  path: '/blog/tf_serving',
+  component: ComponentCreator('/blog/tf_serving'),
   exact: true,
   
 },

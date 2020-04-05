@@ -6,13 +6,16 @@
     "component": "component---theme-blog-list-pagea-6-a-7ba",
     "items": [
       {
+        "content": "content---blogf-08-526"
+      },
+      {
         "content": "content---blogb-89-223"
       },
       {
-        "content": "content---blogeee-214"
+        "content": "content---blogfd-1-795"
       },
       {
-        "content": "content---blogfd-1-795"
+        "content": "content---blogeee-214"
       },
       {
         "content": "content---blogcb-6-925"
@@ -27,13 +30,10 @@
         "content": "content---blog-97-f-d3a"
       },
       {
-        "content": "content---bloga-19-7ea"
-      },
-      {
         "content": "content---blogddc-f12"
       },
       {
-        "content": "content---blogb-31-2a2"
+        "content": "content---bloga-19-7ea"
       }
     ],
     "metadata": "metadata---blogbbb-5f9"
@@ -90,6 +90,9 @@
     "component": "component---theme-blog-list-pagea-6-a-7ba",
     "items": [
       {
+        "content": "content---blog-page-2-b-31-23c"
+      },
+      {
         "content": "content---blog-page-281-a-b9c"
       },
       {
@@ -144,6 +147,9 @@
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "items": [
       {
+        "content": "content---blogf-08-526"
+      },
+      {
         "content": "content---blogcb-6-925"
       },
       {
@@ -156,13 +162,13 @@
         "content": "content---blog-97-f-d3a"
       },
       {
-        "content": "content---bloga-19-7ea"
-      },
-      {
         "content": "content---blogddc-f12"
       },
       {
-        "content": "content---blogb-31-2a2"
+        "content": "content---bloga-19-7ea"
+      },
+      {
+        "content": "content---blog-page-2-b-31-23c"
       },
       {
         "content": "content---blog-page-281-a-b9c"
@@ -186,13 +192,13 @@
         "content": "content---blog-97-f-d3a"
       },
       {
-        "content": "content---bloga-19-7ea"
-      },
-      {
         "content": "content---blogddc-f12"
       },
       {
-        "content": "content---blogb-31-2a2"
+        "content": "content---bloga-19-7ea"
+      },
+      {
+        "content": "content---blog-page-2-b-31-23c"
       },
       {
         "content": "content---blog-page-281-a-b9c"
@@ -219,7 +225,7 @@
         "content": "content---blogddc-f12"
       },
       {
-        "content": "content---blogb-31-2a2"
+        "content": "content---blog-page-2-b-31-23c"
       },
       {
         "content": "content---blog-page-281-a-b9c"
@@ -282,13 +288,13 @@
         "content": "content---blog-97-f-d3a"
       },
       {
-        "content": "content---bloga-19-7ea"
-      },
-      {
         "content": "content---blogddc-f12"
       },
       {
-        "content": "content---blogb-31-2a2"
+        "content": "content---bloga-19-7ea"
+      },
+      {
+        "content": "content---blog-page-2-b-31-23c"
       },
       {
         "content": "content---blog-page-281-a-b9c"
@@ -318,13 +324,13 @@
         "content": "content---blog-97-f-d3a"
       },
       {
-        "content": "content---bloga-19-7ea"
-      },
-      {
         "content": "content---blogddc-f12"
       },
       {
-        "content": "content---blogb-31-2a2"
+        "content": "content---bloga-19-7ea"
+      },
+      {
+        "content": "content---blog-page-2-b-31-23c"
       },
       {
         "content": "content---blog-page-281-a-b9c"
@@ -361,6 +367,15 @@
       }
     ],
     "metadata": "metadata---blog-tags-linux-3-a-7-e1d"
+  },
+  "/blog/tags/model": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "items": [
+      {
+        "content": "content---blogf-08-526"
+      }
+    ],
+    "metadata": "metadata---blog-tags-model-9-f-6-6bc"
   },
   "/blog/tags/python": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
@@ -419,6 +434,15 @@
     ],
     "metadata": "metadata---blog-tags-text-cnn-54-f-f63"
   },
+  "/blog/tags/tf-serving": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "items": [
+      {
+        "content": "content---blogf-08-526"
+      }
+    ],
+    "metadata": "metadata---blog-tags-tf-servinge-47-fbb"
+  },
   "/blog/tags/web": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "items": [
@@ -436,6 +460,10 @@
       }
     ],
     "metadata": "metadata---blog-tags-汇丰acb-3de"
+  },
+  "/blog/tf_serving": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "content": "content---blog-tf-servingdaf-1dc"
   },
   "/blog/webscrapper": {
     "component": "component---theme-blog-post-pageccc-cab",

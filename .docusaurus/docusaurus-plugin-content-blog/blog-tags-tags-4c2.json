@@ -1,4 +1,25 @@
 {
+  "docker": {
+    "allTagsPath": "/blog/tags",
+    "slug": "docker",
+    "name": "docker",
+    "count": 9,
+    "permalink": "/blog/tags/docker"
+  },
+  "tf-serving": {
+    "allTagsPath": "/blog/tags",
+    "slug": "tf-serving",
+    "name": "tf_serving",
+    "count": 1,
+    "permalink": "/blog/tags/tf-serving"
+  },
+  "model": {
+    "allTagsPath": "/blog/tags",
+    "slug": "model",
+    "name": "model",
+    "count": 1,
+    "permalink": "/blog/tags/model"
+  },
   "web": {
     "allTagsPath": "/blog/tags",
     "slug": "web",
@@ -20,27 +41,6 @@
     "count": 1,
     "permalink": "/blog/tags/shopping"
   },
-  "git": {
-    "allTagsPath": "/blog/tags",
-    "slug": "git",
-    "name": "git",
-    "count": 1,
-    "permalink": "/blog/tags/git"
-  },
-  "lfs": {
-    "allTagsPath": "/blog/tags",
-    "slug": "lfs",
-    "name": "lfs",
-    "count": 1,
-    "permalink": "/blog/tags/lfs"
-  },
-  "github": {
-    "allTagsPath": "/blog/tags",
-    "slug": "github",
-    "name": "github",
-    "count": 1,
-    "permalink": "/blog/tags/github"
-  },
   "faker": {
     "allTagsPath": "/blog/tags",
     "slug": "faker",
@@ -61,6 +61,27 @@
     "name": "random seed",
     "count": 1,
     "permalink": "/blog/tags/random-seed"
+  },
+  "git": {
+    "allTagsPath": "/blog/tags",
+    "slug": "git",
+    "name": "git",
+    "count": 1,
+    "permalink": "/blog/tags/git"
+  },
+  "lfs": {
+    "allTagsPath": "/blog/tags",
+    "slug": "lfs",
+    "name": "lfs",
+    "count": 1,
+    "permalink": "/blog/tags/lfs"
+  },
+  "github": {
+    "allTagsPath": "/blog/tags",
+    "slug": "github",
+    "name": "github",
+    "count": 1,
+    "permalink": "/blog/tags/github"
   },
   "python": {
     "allTagsPath": "/blog/tags",
@@ -89,13 +110,6 @@
     "name": "google cloud",
     "count": 10,
     "permalink": "/blog/tags/google-cloud"
-  },
-  "docker": {
-    "allTagsPath": "/blog/tags",
-    "slug": "docker",
-    "name": "docker",
-    "count": 8,
-    "permalink": "/blog/tags/docker"
   },
   "facebook": {
     "allTagsPath": "/blog/tags",
