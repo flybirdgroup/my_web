@@ -6,10 +6,13 @@
     "component": "component---theme-blog-list-pagea-6-a-7ba",
     "items": [
       {
-        "content": "content---blogfd-1-795"
+        "content": "content---blogb-89-223"
       },
       {
-        "content": "content---blog-718-5c6"
+        "content": "content---blogeee-214"
+      },
+      {
+        "content": "content---blogfd-1-795"
       },
       {
         "content": "content---blogcb-6-925"
@@ -24,16 +27,13 @@
         "content": "content---blog-97-f-d3a"
       },
       {
-        "content": "content---blogddc-f12"
-      },
-      {
         "content": "content---bloga-19-7ea"
       },
       {
-        "content": "content---blogb-31-2a2"
+        "content": "content---blogddc-f12"
       },
       {
-        "content": "content---blog-81-a-de2"
+        "content": "content---blogb-31-2a2"
       }
     ],
     "metadata": "metadata---blogbbb-5f9"
@@ -76,7 +76,7 @@
   },
   "/blog/git_big_file": {
     "component": "component---theme-blog-post-pageccc-cab",
-    "content": "content---blog-git-big-filea-2-a-d6e"
+    "content": "content---blog-git-big-filefc-0-fd8"
   },
   "/blog/hello_world": {
     "component": "component---theme-blog-post-pageccc-cab",
@@ -90,6 +90,9 @@
     "component": "component---theme-blog-list-pagea-6-a-7ba",
     "items": [
       {
+        "content": "content---blog-page-281-a-b9c"
+      },
+      {
         "content": "content---blog-page-27-c-9-3d7"
       },
       {
@@ -99,10 +102,10 @@
         "content": "content---blog-page-2-c-9-b-9f0"
       },
       {
-        "content": "content---blog-page-2610-869"
+        "content": "content---blog-page-2226-cf8"
       },
       {
-        "content": "content---blog-page-2226-cf8"
+        "content": "content---blog-page-2610-869"
       }
     ],
     "metadata": "metadata---blog-page-2306-6e4"
@@ -153,16 +156,16 @@
         "content": "content---blog-97-f-d3a"
       },
       {
-        "content": "content---blogddc-f12"
+        "content": "content---bloga-19-7ea"
       },
       {
-        "content": "content---bloga-19-7ea"
+        "content": "content---blogddc-f12"
       },
       {
         "content": "content---blogb-31-2a2"
       },
       {
-        "content": "content---blog-81-a-de2"
+        "content": "content---blog-page-281-a-b9c"
       }
     ],
     "metadata": "metadata---blog-tags-docker-3-c-1-5de"
@@ -183,16 +186,16 @@
         "content": "content---blog-97-f-d3a"
       },
       {
-        "content": "content---blogddc-f12"
+        "content": "content---bloga-19-7ea"
       },
       {
-        "content": "content---bloga-19-7ea"
+        "content": "content---blogddc-f12"
       },
       {
         "content": "content---blogb-31-2a2"
       },
       {
-        "content": "content---blog-81-a-de2"
+        "content": "content---blog-page-281-a-b9c"
       },
       {
         "content": "content---blog-page-27-c-9-3d7"
@@ -201,10 +204,10 @@
         "content": "content---blog-page-2-c-9-b-9f0"
       },
       {
-        "content": "content---blog-page-2610-869"
+        "content": "content---blog-page-2226-cf8"
       },
       {
-        "content": "content---blog-page-2226-cf8"
+        "content": "content---blog-page-2610-869"
       }
     ],
     "metadata": "metadata---blog-tags-docusaurus-6-ca-f43"
@@ -219,7 +222,7 @@
         "content": "content---blogb-31-2a2"
       },
       {
-        "content": "content---blog-81-a-de2"
+        "content": "content---blog-page-281-a-b9c"
       },
       {
         "content": "content---blog-page-27-c-9-3d7"
@@ -228,10 +231,10 @@
         "content": "content---blog-page-2-c-9-b-9f0"
       },
       {
-        "content": "content---blog-page-2610-869"
+        "content": "content---blog-page-2226-cf8"
       },
       {
-        "content": "content---blog-page-2226-cf8"
+        "content": "content---blog-page-2610-869"
       }
     ],
     "metadata": "metadata---blog-tags-facebookeec-618"
@@ -249,7 +252,7 @@
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "items": [
       {
-        "content": "content---blog-718-5c6"
+        "content": "content---blogeee-214"
       }
     ],
     "metadata": "metadata---blog-tags-git-7-f-4-c1e"
@@ -258,7 +261,7 @@
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "items": [
       {
-        "content": "content---blog-718-5c6"
+        "content": "content---blogeee-214"
       }
     ],
     "metadata": "metadata---blog-tags-githubf-8-e-a29"
@@ -279,16 +282,16 @@
         "content": "content---blog-97-f-d3a"
       },
       {
-        "content": "content---blogddc-f12"
+        "content": "content---bloga-19-7ea"
       },
       {
-        "content": "content---bloga-19-7ea"
+        "content": "content---blogddc-f12"
       },
       {
         "content": "content---blogb-31-2a2"
       },
       {
-        "content": "content---blog-81-a-de2"
+        "content": "content---blog-page-281-a-b9c"
       },
       {
         "content": "content---blog-page-27-c-9-3d7"
@@ -315,16 +318,16 @@
         "content": "content---blog-97-f-d3a"
       },
       {
-        "content": "content---blogddc-f12"
+        "content": "content---bloga-19-7ea"
       },
       {
-        "content": "content---bloga-19-7ea"
+        "content": "content---blogddc-f12"
       },
       {
         "content": "content---blogb-31-2a2"
       },
       {
-        "content": "content---blog-81-a-de2"
+        "content": "content---blog-page-281-a-b9c"
       },
       {
         "content": "content---blog-page-27-c-9-3d7"
@@ -333,10 +336,10 @@
         "content": "content---blog-page-2-c-9-b-9f0"
       },
       {
-        "content": "content---blog-page-2610-869"
+        "content": "content---blog-page-2226-cf8"
       },
       {
-        "content": "content---blog-page-2226-cf8"
+        "content": "content---blog-page-2610-869"
       }
     ],
     "metadata": "metadata---blog-tags-hello-3-a-6-b36"
@@ -345,7 +348,7 @@
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "items": [
       {
-        "content": "content---blog-718-5c6"
+        "content": "content---blogeee-214"
       }
     ],
     "metadata": "metadata---blog-tags-lfs-640-1c6"
@@ -389,6 +392,24 @@
     ],
     "metadata": "metadata---blog-tags-random-seed-1-e-9-c7d"
   },
+  "/blog/tags/scrapper": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "items": [
+      {
+        "content": "content---blogb-89-223"
+      }
+    ],
+    "metadata": "metadata---blog-tags-scrappere-48-a13"
+  },
+  "/blog/tags/shopping": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "items": [
+      {
+        "content": "content---blogb-89-223"
+      }
+    ],
+    "metadata": "metadata---blog-tags-shopping-936-f0d"
+  },
   "/blog/tags/text-cnn": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "items": [
@@ -398,6 +419,15 @@
     ],
     "metadata": "metadata---blog-tags-text-cnn-54-f-f63"
   },
+  "/blog/tags/web": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "items": [
+      {
+        "content": "content---blogb-89-223"
+      }
+    ],
+    "metadata": "metadata---blog-tags-web-5-d-0-dd0"
+  },
   "/blog/tags/汇丰": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "items": [
@@ -406,6 +436,10 @@
       }
     ],
     "metadata": "metadata---blog-tags-汇丰acb-3de"
+  },
+  "/blog/webscrapper": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "content": "content---blog-webscrapper-29-a-164"
   },
   "/blog/welcome": {
     "component": "component---theme-blog-post-pageccc-cab",

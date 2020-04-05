@@ -197,14 +197,38 @@ export default [
   
 },
 {
+  path: '/blog/tags/scrapper',
+  component: ComponentCreator('/blog/tags/scrapper'),
+  exact: true,
+  
+},
+{
+  path: '/blog/tags/shopping',
+  component: ComponentCreator('/blog/tags/shopping'),
+  exact: true,
+  
+},
+{
   path: '/blog/tags/text-cnn',
   component: ComponentCreator('/blog/tags/text-cnn'),
   exact: true,
   
 },
 {
+  path: '/blog/tags/web',
+  component: ComponentCreator('/blog/tags/web'),
+  exact: true,
+  
+},
+{
   path: '/blog/tags/汇丰',
   component: ComponentCreator('/blog/tags/汇丰'),
+  exact: true,
+  
+},
+{
+  path: '/blog/webscrapper',
+  component: ComponentCreator('/blog/webscrapper'),
   exact: true,
   
 },

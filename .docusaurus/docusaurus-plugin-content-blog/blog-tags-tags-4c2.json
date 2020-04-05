@@ -1,24 +1,24 @@
 {
-  "faker": {
+  "web": {
     "allTagsPath": "/blog/tags",
-    "slug": "faker",
-    "name": "faker",
+    "slug": "web",
+    "name": "web",
     "count": 1,
-    "permalink": "/blog/tags/faker"
+    "permalink": "/blog/tags/web"
   },
-  "汇丰": {
+  "scrapper": {
     "allTagsPath": "/blog/tags",
-    "slug": "汇丰",
-    "name": "汇丰",
+    "slug": "scrapper",
+    "name": "scrapper",
     "count": 1,
-    "permalink": "/blog/tags/汇丰"
+    "permalink": "/blog/tags/scrapper"
   },
-  "random-seed": {
+  "shopping": {
     "allTagsPath": "/blog/tags",
-    "slug": "random-seed",
-    "name": "random seed",
+    "slug": "shopping",
+    "name": "shopping",
     "count": 1,
-    "permalink": "/blog/tags/random-seed"
+    "permalink": "/blog/tags/shopping"
   },
   "git": {
     "allTagsPath": "/blog/tags",
@@ -40,6 +40,27 @@
     "name": "github",
     "count": 1,
     "permalink": "/blog/tags/github"
+  },
+  "faker": {
+    "allTagsPath": "/blog/tags",
+    "slug": "faker",
+    "name": "faker",
+    "count": 1,
+    "permalink": "/blog/tags/faker"
+  },
+  "汇丰": {
+    "allTagsPath": "/blog/tags",
+    "slug": "汇丰",
+    "name": "汇丰",
+    "count": 1,
+    "permalink": "/blog/tags/汇丰"
+  },
+  "random-seed": {
+    "allTagsPath": "/blog/tags",
+    "slug": "random-seed",
+    "name": "random seed",
+    "count": 1,
+    "permalink": "/blog/tags/random-seed"
   },
   "python": {
     "allTagsPath": "/blog/tags",
