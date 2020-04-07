@@ -77,8 +77,8 @@ export default [
   
 },
 {
-  path: '/blog/hello_world',
-  component: ComponentCreator('/blog/hello_world'),
+  path: '/blog/google cloud',
+  component: ComponentCreator('/blog/google cloud'),
   exact: true,
   
 },
@@ -167,6 +167,12 @@ export default [
   
 },
 {
+  path: '/blog/tags/google-cloud-init',
+  component: ComponentCreator('/blog/tags/google-cloud-init'),
+  exact: true,
+  
+},
+{
   path: '/blog/tags/hello',
   component: ComponentCreator('/blog/tags/hello'),
   exact: true,
@@ -209,8 +215,20 @@ export default [
   
 },
 {
+  path: '/blog/tags/sdk',
+  component: ComponentCreator('/blog/tags/sdk'),
+  exact: true,
+  
+},
+{
   path: '/blog/tags/shopping',
   component: ComponentCreator('/blog/tags/shopping'),
+  exact: true,
+  
+},
+{
+  path: '/blog/tags/socket',
+  component: ComponentCreator('/blog/tags/socket'),
   exact: true,
   
 },

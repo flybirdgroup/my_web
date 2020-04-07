@@ -12,10 +12,10 @@
         "content": "content---blogb-89-223"
       },
       {
-        "content": "content---blogfd-1-795"
+        "content": "content---blogeee-214"
       },
       {
-        "content": "content---blogeee-214"
+        "content": "content---blogfd-1-795"
       },
       {
         "content": "content---blogcb-6-925"
@@ -30,10 +30,10 @@
         "content": "content---blog-97-f-d3a"
       },
       {
-        "content": "content---blogddc-f12"
+        "content": "content---bloga-19-7ea"
       },
       {
-        "content": "content---bloga-19-7ea"
+        "content": "content---blogddc-f12"
       }
     ],
     "metadata": "metadata---blogbbb-5f9"
@@ -78,7 +78,7 @@
     "component": "component---theme-blog-post-pageccc-cab",
     "content": "content---blog-git-big-filefc-0-fd8"
   },
-  "/blog/hello_world": {
+  "/blog/google cloud": {
     "component": "component---theme-blog-post-pageccc-cab",
     "content": "content---blog-hello-world-537-b5d"
   },
@@ -162,10 +162,10 @@
         "content": "content---blog-97-f-d3a"
       },
       {
-        "content": "content---blogddc-f12"
+        "content": "content---bloga-19-7ea"
       },
       {
-        "content": "content---bloga-19-7ea"
+        "content": "content---blogddc-f12"
       },
       {
         "content": "content---blog-page-2-b-31-23c"
@@ -192,10 +192,10 @@
         "content": "content---blog-97-f-d3a"
       },
       {
-        "content": "content---blogddc-f12"
+        "content": "content---bloga-19-7ea"
       },
       {
-        "content": "content---bloga-19-7ea"
+        "content": "content---blogddc-f12"
       },
       {
         "content": "content---blog-page-2-b-31-23c"
@@ -211,9 +211,6 @@
       },
       {
         "content": "content---blog-page-2226-cf8"
-      },
-      {
-        "content": "content---blog-page-2610-869"
       }
     ],
     "metadata": "metadata---blog-tags-docusaurus-6-ca-f43"
@@ -238,9 +235,6 @@
       },
       {
         "content": "content---blog-page-2226-cf8"
-      },
-      {
-        "content": "content---blog-page-2610-869"
       }
     ],
     "metadata": "metadata---blog-tags-facebookeec-618"
@@ -288,10 +282,10 @@
         "content": "content---blog-97-f-d3a"
       },
       {
-        "content": "content---blogddc-f12"
+        "content": "content---bloga-19-7ea"
       },
       {
-        "content": "content---bloga-19-7ea"
+        "content": "content---blogddc-f12"
       },
       {
         "content": "content---blog-page-2-b-31-23c"
@@ -307,6 +301,15 @@
       }
     ],
     "metadata": "metadata---blog-tags-google-cloud-4-fd-369"
+  },
+  "/blog/tags/google-cloud-init": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "items": [
+      {
+        "content": "content---blog-page-2610-869"
+      }
+    ],
+    "metadata": "metadata---blog-tags-google-cloud-initd-27-ccf"
   },
   "/blog/tags/hello": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
@@ -324,10 +327,10 @@
         "content": "content---blog-97-f-d3a"
       },
       {
-        "content": "content---blogddc-f12"
+        "content": "content---bloga-19-7ea"
       },
       {
-        "content": "content---bloga-19-7ea"
+        "content": "content---blogddc-f12"
       },
       {
         "content": "content---blog-page-2-b-31-23c"
@@ -343,9 +346,6 @@
       },
       {
         "content": "content---blog-page-2226-cf8"
-      },
-      {
-        "content": "content---blog-page-2610-869"
       }
     ],
     "metadata": "metadata---blog-tags-hello-3-a-6-b36"
@@ -416,6 +416,15 @@
     ],
     "metadata": "metadata---blog-tags-scrappere-48-a13"
   },
+  "/blog/tags/sdk": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "items": [
+      {
+        "content": "content---blog-page-2610-869"
+      }
+    ],
+    "metadata": "metadata---blog-tags-sdk-34-f-4cc"
+  },
   "/blog/tags/shopping": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "items": [
@@ -424,6 +433,15 @@
       }
     ],
     "metadata": "metadata---blog-tags-shopping-936-f0d"
+  },
+  "/blog/tags/socket": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "items": [
+      {
+        "content": "content---blog-page-2610-869"
+      }
+    ],
+    "metadata": "metadata---blog-tags-socket-5-e-7-ffd"
   },
   "/blog/tags/text-cnn": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
