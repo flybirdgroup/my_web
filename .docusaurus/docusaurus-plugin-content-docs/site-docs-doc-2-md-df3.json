@@ -1,11 +1,11 @@
 {
   "id": "doc2",
-  "title": "Amazon",
-  "description": "This is a link to [another document.](doc1.md) This is a link to an [external page.](http://www.example.com)",
+  "title": "GCP常用命令",
+  "description": "Cloud Storage常用命令",
   "source": "@site/docs/doc2.md",
   "permalink": "/docs/doc2",
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/doc2.md",
-  "sidebar_label": "Lawevan Story",
+  "sidebar_label": "gcs command line",
   "sidebar": "someSidebar",
   "previous": {
     "title": "Style Guide",

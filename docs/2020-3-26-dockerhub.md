@@ -44,7 +44,22 @@ docker tag quickstart-image flybirdgroup/helloworld:lastest
 
 
 ## step5: 推送镜像到远程仓库
+## 敲黑板
+在push前一定要在系统先登录docker
+```
+docker login
+```
+
 ```python
 docker push flybirdgroup/helloworld:lastest
 ```
 ![png](../img/dockerhub/5.png)
+
+如果需要修改镜像,可以通过进入容器,再去修改里面,最后再把容器变成新的镜像
+```python
+docker exec -it container_ID /bin/bash
+```
+修改文件后,exit退出,把容器变成镜像
+```
+sudo docker commit containerid flybirdgroup/news
+```

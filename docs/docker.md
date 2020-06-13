@@ -56,13 +56,15 @@ CMD ["python", "app.py"]
 
 ```
 requirements.txt (这里使用pip freeze >requirements.txt 把工具包写入文件)
-```
-Flask
-```
 
+Flask
+
+```
 app.py
 ```
+
 # The Docker image contains the following code in app.py
+```
 from flask import Flask
 import os
 import socket
@@ -86,6 +88,16 @@ docker build -t 名字 .
 这样就创建了一个本地的Docker镜像了
 如果想把它上传到Dockerhub, 请看link to [push镜像到自己的dockerhub](dockerhub)
 
+# 如果需要进入容器修改,可输入一下命令
+```python
+sudo docker exec -it 容器id /bin/bash
+```
+然后使用vi来修改
+
+# 修改后把容器变回镜像
+```python
+docker commit -m "备注内容" container ID 镜像名字
+```
 ## step2 将映像添加到 Container Registry
 将 docker 配置为使用 gcloud 命令行工具作为凭据帮助程序
 如需推送或拉取映像，您必须将 Docker 配置为使用 gcloud 命令行工具对向 Container Registry 发出的请求进行身份验证。为此，请运行以下命令（您只需要执行此操作一次）
@@ -110,6 +122,10 @@ quickstart-image 是 Docker 映像的名称
 tag1 是要添加到 Docker 映像的标记。如果您没有指定标记，Docker 将应用默认标记 latest。
 
 ![png](../img/kubernetes/6.png)
+
+```
+docker push gcr.io/[PROJECT-ID]/quickstart-image:tag1
+```
 
 ## 清理
 运行以下命令，以将 Docker 映像从 Container Registry 中删除

@@ -7,7 +7,7 @@
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/doc3.md",
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Amazon",
+    "title": "GCP常用命令",
     "permalink": "/docs/doc2"
   },
   "next": {

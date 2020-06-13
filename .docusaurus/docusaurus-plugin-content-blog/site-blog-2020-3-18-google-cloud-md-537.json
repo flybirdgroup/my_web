@@ -24,6 +24,10 @@
   "title": "使用Google Cloud SDK来配置Google App Engine",
   "truncated": true,
   "prevItem": {
+    "title": "word2vec详解",
+    "permalink": "/blog/elmo"
+  },
+  "nextItem": {
     "title": "textCNN卷积神经网络分类",
     "permalink": "/blog/welcome"
   }

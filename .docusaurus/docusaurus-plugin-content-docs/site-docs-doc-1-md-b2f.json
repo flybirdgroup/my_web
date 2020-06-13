@@ -8,7 +8,7 @@
   "sidebar_label": "Style Guide",
   "sidebar": "someSidebar",
   "next": {
-    "title": "Amazon",
+    "title": "GCP常用命令",
     "permalink": "/docs/doc2"
   }
 }

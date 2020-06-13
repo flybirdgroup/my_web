@@ -105,5 +105,28 @@ http://external-ip/
 
 ![png](../img/kubernetes/8.png)
 
+# 查看service
+可以查看kubernetes的所有service
+```kubernetes
+kubectl get service # 
+```
+这些service非常重要,因为pod之间的相连就是通过这些service的
+
+# 删除pod
+```
+kubectl delete pod jenkins2-8698b5449c-grbdm(pod的名字)
+kubectl get pod 
+```
+我们会发现pod没有被删除,这时候我们要输入一下命令
+```
+kubectl get deployment
+kubectl delete deployment 名字name
+kubectl get pod
+```
+就完全删除了
+
+
+
+
 
 

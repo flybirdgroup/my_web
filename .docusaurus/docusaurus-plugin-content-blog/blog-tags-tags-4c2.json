@@ -1,4 +1,270 @@
 {
+  "facebook": {
+    "allTagsPath": "/blog/tags",
+    "slug": "facebook",
+    "name": "facebook",
+    "count": 9,
+    "permalink": "/blog/tags/facebook"
+  },
+  "hello": {
+    "allTagsPath": "/blog/tags",
+    "slug": "hello",
+    "name": "hello",
+    "count": 14,
+    "permalink": "/blog/tags/hello"
+  },
+  "docusaurus": {
+    "allTagsPath": "/blog/tags",
+    "slug": "docusaurus",
+    "name": "docusaurus",
+    "count": 14,
+    "permalink": "/blog/tags/docusaurus"
+  },
+  "google-cloud": {
+    "allTagsPath": "/blog/tags",
+    "slug": "google-cloud",
+    "name": "google cloud",
+    "count": 13,
+    "permalink": "/blog/tags/google-cloud"
+  },
+  "linux": {
+    "allTagsPath": "/blog/tags",
+    "slug": "linux",
+    "name": "linux",
+    "count": 6,
+    "permalink": "/blog/tags/linux"
+  },
+  "command-line": {
+    "allTagsPath": "/blog/tags",
+    "slug": "command-line",
+    "name": "command line",
+    "count": 5,
+    "permalink": "/blog/tags/command-line"
+  },
+  "cat": {
+    "allTagsPath": "/blog/tags",
+    "slug": "cat",
+    "name": "cat",
+    "count": 2,
+    "permalink": "/blog/tags/cat"
+  },
+  "eof": {
+    "allTagsPath": "/blog/tags",
+    "slug": "eof",
+    "name": "<<eof",
+    "count": 2,
+    "permalink": "/blog/tags/eof"
+  },
+  "loop": {
+    "allTagsPath": "/blog/tags",
+    "slug": "loop",
+    "name": "loop",
+    "count": 2,
+    "permalink": "/blog/tags/loop"
+  },
+  "jenkins": {
+    "allTagsPath": "/blog/tags",
+    "slug": "jenkins",
+    "name": "jenkins",
+    "count": 1,
+    "permalink": "/blog/tags/jenkins"
+  },
+  "gke": {
+    "allTagsPath": "/blog/tags",
+    "slug": "gke",
+    "name": "gke",
+    "count": 1,
+    "permalink": "/blog/tags/gke"
+  },
+  "gcp": {
+    "allTagsPath": "/blog/tags",
+    "slug": "gcp",
+    "name": "gcp",
+    "count": 17,
+    "permalink": "/blog/tags/gcp"
+  },
+  "github": {
+    "allTagsPath": "/blog/tags",
+    "slug": "github",
+    "name": "github",
+    "count": 5,
+    "permalink": "/blog/tags/github"
+  },
+  "terraform": {
+    "allTagsPath": "/blog/tags",
+    "slug": "terraform",
+    "name": "terraform",
+    "count": 3,
+    "permalink": "/blog/tags/terraform"
+  },
+  "compute-engine": {
+    "allTagsPath": "/blog/tags",
+    "slug": "compute-engine",
+    "name": "compute engine",
+    "count": 3,
+    "permalink": "/blog/tags/compute-engine"
+  },
+  "vm": {
+    "allTagsPath": "/blog/tags",
+    "slug": "vm",
+    "name": "vm",
+    "count": 3,
+    "permalink": "/blog/tags/vm"
+  },
+  "nginx": {
+    "allTagsPath": "/blog/tags",
+    "slug": "nginx",
+    "name": "nginx",
+    "count": 1,
+    "permalink": "/blog/tags/nginx"
+  },
+  "port": {
+    "allTagsPath": "/blog/tags",
+    "slug": "port",
+    "name": "port",
+    "count": 1,
+    "permalink": "/blog/tags/port"
+  },
+  "target": {
+    "allTagsPath": "/blog/tags",
+    "slug": "target",
+    "name": "target",
+    "count": 1,
+    "permalink": "/blog/tags/target"
+  },
+  "load-balance": {
+    "allTagsPath": "/blog/tags",
+    "slug": "load-balance",
+    "name": "load-balance",
+    "count": 1,
+    "permalink": "/blog/tags/load-balance"
+  },
+  "dataproc": {
+    "allTagsPath": "/blog/tags",
+    "slug": "dataproc",
+    "name": "dataproc",
+    "count": 10,
+    "permalink": "/blog/tags/dataproc"
+  },
+  "avro": {
+    "allTagsPath": "/blog/tags",
+    "slug": "avro",
+    "name": "avro",
+    "count": 2,
+    "permalink": "/blog/tags/avro"
+  },
+  "bigquery": {
+    "allTagsPath": "/blog/tags",
+    "slug": "bigquery",
+    "name": "bigquery",
+    "count": 5,
+    "permalink": "/blog/tags/bigquery"
+  },
+  "spark": {
+    "allTagsPath": "/blog/tags",
+    "slug": "spark",
+    "name": "spark",
+    "count": 9,
+    "permalink": "/blog/tags/spark"
+  },
+  "hadoop": {
+    "allTagsPath": "/blog/tags",
+    "slug": "hadoop",
+    "name": "hadoop",
+    "count": 8,
+    "permalink": "/blog/tags/hadoop"
+  },
+  "script": {
+    "allTagsPath": "/blog/tags",
+    "slug": "script",
+    "name": "script",
+    "count": 1,
+    "permalink": "/blog/tags/script"
+  },
+  "excel": {
+    "allTagsPath": "/blog/tags",
+    "slug": "excel",
+    "name": "excel",
+    "count": 1,
+    "permalink": "/blog/tags/excel"
+  },
+  "google": {
+    "allTagsPath": "/blog/tags",
+    "slug": "google",
+    "name": "google",
+    "count": 1,
+    "permalink": "/blog/tags/google"
+  },
+  "dataflow": {
+    "allTagsPath": "/blog/tags",
+    "slug": "dataflow",
+    "name": "dataflow",
+    "count": 4,
+    "permalink": "/blog/tags/dataflow"
+  },
+  "subpub": {
+    "allTagsPath": "/blog/tags",
+    "slug": "subpub",
+    "name": "subpub",
+    "count": 3,
+    "permalink": "/blog/tags/subpub"
+  },
+  "steaming": {
+    "allTagsPath": "/blog/tags",
+    "slug": "steaming",
+    "name": "steaming",
+    "count": 3,
+    "permalink": "/blog/tags/steaming"
+  },
+  "apache-beam": {
+    "allTagsPath": "/blog/tags",
+    "slug": "apache-beam",
+    "name": "apache beam",
+    "count": 1,
+    "permalink": "/blog/tags/apache-beam"
+  },
+  "sql": {
+    "allTagsPath": "/blog/tags",
+    "slug": "sql",
+    "name": "sql",
+    "count": 1,
+    "permalink": "/blog/tags/sql"
+  },
+  "jupyter": {
+    "allTagsPath": "/blog/tags",
+    "slug": "jupyter",
+    "name": "jupyter",
+    "count": 1,
+    "permalink": "/blog/tags/jupyter"
+  },
+  "pycharm": {
+    "allTagsPath": "/blog/tags",
+    "slug": "pycharm",
+    "name": "pycharm",
+    "count": 1,
+    "permalink": "/blog/tags/pycharm"
+  },
+  "java": {
+    "allTagsPath": "/blog/tags",
+    "slug": "java",
+    "name": "java",
+    "count": 1,
+    "permalink": "/blog/tags/java"
+  },
+  "git": {
+    "allTagsPath": "/blog/tags",
+    "slug": "git",
+    "name": "git",
+    "count": 2,
+    "permalink": "/blog/tags/git"
+  },
+  "lfs": {
+    "allTagsPath": "/blog/tags",
+    "slug": "lfs",
+    "name": "lfs",
+    "count": 2,
+    "permalink": "/blog/tags/lfs"
+  },
   "docker": {
     "allTagsPath": "/blog/tags",
     "slug": "docker",
@@ -41,27 +307,6 @@
     "count": 1,
     "permalink": "/blog/tags/shopping"
   },
-  "git": {
-    "allTagsPath": "/blog/tags",
-    "slug": "git",
-    "name": "git",
-    "count": 1,
-    "permalink": "/blog/tags/git"
-  },
-  "lfs": {
-    "allTagsPath": "/blog/tags",
-    "slug": "lfs",
-    "name": "lfs",
-    "count": 1,
-    "permalink": "/blog/tags/lfs"
-  },
-  "github": {
-    "allTagsPath": "/blog/tags",
-    "slug": "github",
-    "name": "github",
-    "count": 1,
-    "permalink": "/blog/tags/github"
-  },
   "faker": {
     "allTagsPath": "/blog/tags",
     "slug": "faker",
@@ -89,41 +334,6 @@
     "name": "python",
     "count": 5,
     "permalink": "/blog/tags/python"
-  },
-  "hello": {
-    "allTagsPath": "/blog/tags",
-    "slug": "hello",
-    "name": "hello",
-    "count": 11,
-    "permalink": "/blog/tags/hello"
-  },
-  "docusaurus": {
-    "allTagsPath": "/blog/tags",
-    "slug": "docusaurus",
-    "name": "docusaurus",
-    "count": 11,
-    "permalink": "/blog/tags/docusaurus"
-  },
-  "google-cloud": {
-    "allTagsPath": "/blog/tags",
-    "slug": "google-cloud",
-    "name": "google cloud",
-    "count": 10,
-    "permalink": "/blog/tags/google-cloud"
-  },
-  "facebook": {
-    "allTagsPath": "/blog/tags",
-    "slug": "facebook",
-    "name": "facebook",
-    "count": 6,
-    "permalink": "/blog/tags/facebook"
-  },
-  "linux": {
-    "allTagsPath": "/blog/tags",
-    "slug": "linux",
-    "name": "linux",
-    "count": 1,
-    "permalink": "/blog/tags/linux"
   },
   "cnn": {
     "allTagsPath": "/blog/tags",
